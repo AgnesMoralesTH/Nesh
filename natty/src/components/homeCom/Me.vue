@@ -5,16 +5,17 @@
     <h5>Philippines. USA. Thailand</h5>
     </div>
     <div class="right">
-<img src="../../assets/pook.png">
+      
+    <img src="../../assets/netch.png">
     </div>
   </div>
 </template>
 
 <style scoped>
 .homeFirst{
-  border: 5px solid red;
-
- height: 600px;
+  
+  margin-top: 20px;
+ height: 500px;
         width: 900px;
   display: flex;
   justify-content: space-between;
@@ -26,12 +27,15 @@
   line-height: 10px;
 }
 .right{
-  background-color: skyblue;
-  height: 400px;
-  width: 400px;
+  background-image: linear-gradient(to bottom left, rgb(255, 234, 237), rgb(229, 153, 165));
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
 }
 img{
-  height: 250px;
-  width:400px;
+  height: 500px;
+  width:500px;
+  
 }
+
 </style>
