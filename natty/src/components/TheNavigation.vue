@@ -3,12 +3,14 @@
         <p class="logo">Natty</p>
 
         <ul class="nav-links">
-            <li class="links">HOME</li>
-            <li class="links">SHOP</li>
-            <li class="links">CONTACT</li>
-            <li class="links">INFO</li>
+            <li><router-link to="/" class="links">Home</router-link></li> 
+    <li><router-link to="/about" class="links">Shop</router-link></li>
+    <li><router-link to="/" class="links">Contact</router-link> </li>
+    <li><router-link to="/about" class="links">Info</router-link></li>
             
         </ul>
+
+        
     </nav>
 </template>
 
