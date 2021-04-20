@@ -21,6 +21,7 @@
     height: 100px;
      display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
 #nav a{
     font-weight: bold;
