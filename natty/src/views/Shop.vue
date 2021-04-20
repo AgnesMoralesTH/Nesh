@@ -11,6 +11,7 @@
       
       <div class="right">
         <img src="../assets/pook.png" alt="" id="pook">
+        <img src="../assets/boos.png" id="boos">
       </div>
     </div>
   </div>
@@ -49,5 +50,15 @@
 #pook{
   height: 400px;
   width: 400px;
+  z-index: 2;
+  position: absolute;
+  margin-left: -100px;
+}
+#boos{
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  margin-left: -200px;
+  z-index: 1;
 }
 </style>
