@@ -2,19 +2,19 @@
     <div class="homeSecond">
 
     <div class="top">
-        <h1>CERAMICS</h1>
+        <h1 class="paragraphTitles">DIGITAL ARTS</h1>
         
     </div>
 
 
    <div class="grid-container">
-  <div class="grid-item">1</div>
-  <div class="grid-item">2</div>
-  <div class="grid-item">3</div>
-  <div class="grid-item">4</div>
-  <div class="grid-item">5</div>
-  <div class="grid-item">6</div>
-  <div class="grid-item">7</div>
+  <div class="grid-item"><img src="../../assets/IMG_2906.png"  class="grid1" alt=""></div>
+  <div class="grid-item"><img src="../../assets/IMG_1558.png"  class="grid1" alt=""></div>
+  <div class="grid-item"><img src="../../assets/IMG_1783.png"  class="grid1" alt=""></div>
+  <div class="grid-item"><img src="../../assets/IMG_2899.png"  class="grid1" alt=""></div>
+  <div class="grid-item"><img src="../../assets/IMG_2907.png"  class="grid1" alt=""></div>
+  <div class="grid-item"><img src="../../assets/IMG_2908.png"  class="grid1" alt=""></div>
+  <div class="grid-item"><img src="../../assets/IMG_2909.png"  class="grid1" alt=""></div>
   <div class="grid-item">8</div>
     </div>
     
@@ -25,6 +25,19 @@
 
 
 <style scoped>
+img{
+    height: 100%;
+    width: 100%;
+}
+.paragraphTitles{
+  background-color: tan;
+  padding-top: 10px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+
     .homeSecond{
         height: 750px;
         width: 1100px;
@@ -49,17 +62,20 @@
         margin-left: 20px;
     }
     .grid-container{
+        background-image: repeating-radial-gradient(to bottom left, blue to green);
         width: 1000px;
-        height: 650px;
+        height: 500px;
        display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 2fr 2fr;
+  grid-template-rows: 1fr 1fr;
   margin: 0 auto;
   grid-gap: 10px;
     }
     .grid-item{
       background-color: white;
       padding: 10px;
-      border: 2px solid silver;
+      
+      
+      
     }
 </style>

@@ -14,7 +14,7 @@
 <style scoped>
 .homeFirst{
   
-  margin-top: 20px;
+ 
  height: 500px;
         width: 900px;
   display: flex;

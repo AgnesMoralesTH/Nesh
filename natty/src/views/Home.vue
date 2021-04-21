@@ -1,5 +1,5 @@
 <template>
- <div class="home">
+ <div class="main">
     <Me />
     <Art />
     <Shopmini />
@@ -24,16 +24,30 @@ export default{
 </script>
 
 <style scoped>
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Fira Sans', sans-serif;
 }
-.home{
-  background-color: silver;
+.main{
+ padding-top: 100px;
+    background-image: linear-gradient(to bottom , rgb(88, 163, 182), rgb(91, 222, 255));
+margin-top: -100px;
+  height: 100%;
+  width: 100%;
+}
 
+.home{
+  padding-top: 100px;
+
+  height: 100%;
+  width: 100%;
+  
+background-image: linear-gradient(to bottom , rgb(88, 163, 182), rgb(91, 222, 255));
+margin-top: -100px;
   margin: 0 auto;
-  padding: 20px 20px 20px 20px;
+  
 }
 </style>
