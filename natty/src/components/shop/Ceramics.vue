@@ -8,14 +8,33 @@
 
 
    <div class="grid-container">
-  <div class="grid-item"><img src="../../assets/IMG_2906.png"  class="grid1" alt=""></div>
-  <div class="grid-item"><img src="../../assets/IMG_1558.png"  class="grid1" alt=""></div>
-  <div class="grid-item"><img src="../../assets/IMG_1783.png"  class="grid1" alt=""></div>
-  <div class="grid-item"><img src="../../assets/IMG_2899.png"  class="grid1" alt=""></div>
-  <div class="grid-item"><img src="../../assets/IMG_2907.png"  class="grid1" alt=""></div>
-  <div class="grid-item"><img src="../../assets/IMG_2908.png"  class="grid1" alt=""></div>
-  <div class="grid-item"><img src="../../assets/IMG_2909.png"  class="grid1" alt=""></div>
-  <div class="grid-item">8</div>
+  <div class="grid-item" id="gI1">
+      <img src="../../assets/IMG_2906.png"  class="grid1" alt="">
+      <div class="hiddenText" id="hT1">
+          <h3>John 1:5</h3>
+          <h4>August 13 2021</h4>
+          <p>Agnes Tubil</p>
+      </div>
+    </div>
+  <div class="grid-item">
+      <img src="../../assets/IMG_1558.png"  class="grid1" alt="">
+    </div>
+  <div class="grid-item">
+      <img src="../../assets/IMG_1783.png"  class="grid1" alt="">
+      </div>
+  <div class="grid-item">
+      <img src="../../assets/IMG_2899.png"  class="grid1" alt="">
+      </div>
+  <div class="grid-item">
+      <img src="../../assets/IMG_2907.png"  class="grid1" alt="">
+      </div>
+  <div class="grid-item">
+      <img src="../../assets/IMG_2908.png"  class="grid1" alt="">
+      </div>
+  <div class="grid-item">
+      <img src="../../assets/IMG_2909.png"  class="grid1" alt="">
+      </div>
+  <div class="grid-item"></div>
     </div>
     
     </div>
@@ -25,9 +44,26 @@
 
 
 <style scoped>
+.grid-item{
+    cursor: pointer;
+    z-index: 2;
+}
+
+.hiddenText{
+    position: absolute;
+    margin-top: -70px;
+    color: white;
+    z-index: 1;
+}
+#gI1:hover + #hT1{
+    display: block;
+    z-index: 3;
+
+}
 img{
     height: 100%;
     width: 100%;
+    z-index: 2;
 }
 .paragraphTitles{
   background-color: tan;
