@@ -19,6 +19,9 @@
         <img src="../assets/boos.png" id="boos">
       </div>
     </div>
+
+    <Books />
+    <Ceramics />
   </div>
 </template>
 
@@ -33,7 +36,7 @@
  padding-top: 100px;
     background-image: linear-gradient(to bottom , rgb(88, 163, 182), rgb(91, 222, 255));
 margin-top: -100px;
-  height: 1000px;
+  height: 100%;
   width: 100%;
 }
 .banners{
@@ -70,6 +73,18 @@ margin-top: -100px;
   position: absolute;
   margin-left: -100px;
 }
+#pook:hover{
+  cursor: grab;
+  animation: bigpooki 20s infinite;
+
+}
+  @keyframes bigpooki {
+  0%   {transform: scale(1.0);}
+  
+  50%  {transform: scale(1.15);}
+  
+  100% {transform: scale(1.3);}
+}
 #boos{
   height: 150px;
   width: 150px;
@@ -85,3 +100,14 @@ margin-top: -100px;
   border-radius: 50px;
 }
 </style>
+
+<script>
+  import Ceramics from '../components/shop/Ceramics'
+  import Books from "../components/shop/Books"
+export default{
+  components: {
+    Books,
+    Ceramics,
+  },
+}
+</script>
