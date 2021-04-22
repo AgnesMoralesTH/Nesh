@@ -5,7 +5,7 @@
         <ul class="nav-links">
             <li><router-link to="/" class="links">Home</router-link></li> 
     <li><router-link to="/shop" class="links">Shop</router-link></li>
-    <li><router-link to="/" class="links">Contact</router-link> </li>
+    <li><router-link to="/contact" class="links">Contact</router-link> </li>
     <li><router-link to="/about" class="links">Info</router-link></li>
             
         </ul>

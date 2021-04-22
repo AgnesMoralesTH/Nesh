@@ -34,7 +34,7 @@
 }
 .main{
  padding-top: 100px;
-    background-image: linear-gradient(to bottom , rgb(88, 163, 182), rgb(91, 222, 255));
+    background-image: linear-gradient(to bottom , rgb(62, 216, 255), rgb(91, 222, 255));
 margin-top: -100px;
   height: 100%;
   width: 100%;
@@ -59,6 +59,7 @@ margin-top: -100px;
 }
 .left h1{
   font-size: 50px;
+  color: rgb(255, 255, 255);
 }
 .right{
   background-image: linear-gradient(to bottom left, rgb(255, 234, 237), rgb(229, 153, 165));

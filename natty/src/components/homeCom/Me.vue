@@ -1,7 +1,7 @@
 <template>
   <div class="homeFirst">
     <div class="left">
-    <h1>ART BY NESH</h1>
+    <h1>ART BY NATTY</h1>
     <h5>Philippines. USA. Thailand</h5>
     </div>
     <div class="right">
