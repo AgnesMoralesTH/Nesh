@@ -102,13 +102,3 @@ margin-top: -100px;
 }
 </style>
 
-<script>
-  import Ceramics from '../components/shop/Ceramics'
-  import Books from "../components/shop/Books"
-export default{
-  components: {
-    Books,
-    Ceramics,
-  },
-}
-</script>

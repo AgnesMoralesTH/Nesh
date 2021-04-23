@@ -31,7 +31,6 @@
         
         margin: 0 auto;
         padding: 20px 20px 20px 20px;
-          background-image: linear-gradient(to bottom left, rgb(255, 234, 237), rgb(229, 153, 165));
 
     }
     .top{

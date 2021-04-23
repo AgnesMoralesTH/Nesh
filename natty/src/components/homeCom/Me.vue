@@ -28,7 +28,7 @@
   margin-top: 30%;
 }
 .right{
-  background-image: linear-gradient(to bottom left, rgb(255, 234, 237), rgb(229, 153, 165));
+  background-image: linear-gradient(to bottom , rgb(241, 195, 173), rgb(255, 239, 232));
   height: 500px;
   width: 500px;
   border-radius: 50%;

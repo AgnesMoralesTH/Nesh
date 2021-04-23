@@ -33,7 +33,7 @@ export default{
 }
 .main{
  padding-top: 100px;
-    background-image: linear-gradient(to bottom , rgb(62, 216, 255), rgb(91, 222, 255));
+    background-image: linear-gradient(to bottom , rgb(232, 250, 255), rgb(255, 241, 224));
 margin-top: -100px;
   height: 100%;
   width: 100%;
@@ -45,7 +45,8 @@ margin-top: -100px;
   height: 100%;
   width: 100%;
   
-background-image: linear-gradient(to bottom , rgb(88, 163, 182), rgb(91, 222, 255));
+    background-image: linear-gradient(to bottom , rgb(232, 250, 255), rgb(255, 241, 224));
+
 margin-top: -100px;
   margin: 0 auto;
   

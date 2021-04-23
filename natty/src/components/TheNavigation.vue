@@ -27,16 +27,26 @@
     font-weight: bold;
     color: black;
     text-decoration: none;
+    
+    
 }
-nav a.active{
-    color: #42b983;
+li:hover{
+  color: grey;
 }
 .nav-links{
     display: flex;
 }
 .links{
-    padding-right: 20px;
+    
     list-style: none;
+}
+li{
+margin-right: 30px;
+padding: 15px 5px 5px 5px;
+height: 50px;
+}
+.logo{
+  padding: 15px 5px 5px 5px;  
 }
 .links:hover{
     text-decoration: underline;
