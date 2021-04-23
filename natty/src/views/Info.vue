@@ -21,7 +21,7 @@
     </div>
 
     <Books />
-    <Ceramics />
+    
   </div>
 </template>
 
@@ -102,3 +102,12 @@ margin-top: -100px;
 }
 </style>
 
+<script>
+  import Books from "../components/shop/Books"
+export default{
+  components: {
+    Books,
+    
+  },
+}
+</script>

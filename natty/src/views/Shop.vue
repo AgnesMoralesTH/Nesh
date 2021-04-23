@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <Books />
+   
     <Ceramics />
   </div>
 </template>
@@ -59,7 +59,8 @@ margin-top: -100px;
 }
 .left h1{
   font-size: 50px;
-  color: rgb(255, 255, 255);
+  color: rgb(146, 146, 146);
+ /* color: rgb(255, 255, 255); */
 }
 .right{
   background-image: linear-gradient(to bottom left, rgb(255, 234, 237), rgb(229, 153, 165));
@@ -104,10 +105,8 @@ margin-top: -100px;
 
 <script>
   import Ceramics from '../components/shop/Ceramics'
-  import Books from "../components/shop/Books"
 export default{
   components: {
-    Books,
     Ceramics,
   },
 }

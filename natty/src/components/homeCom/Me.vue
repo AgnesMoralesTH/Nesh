@@ -12,6 +12,12 @@
 </template>
 
 <style scoped>
+h1{
+  font-size: 50px;
+  color: rgb(146, 146, 146);
+ /* color: rgb(255, 255, 255); */
+}
+
 .homeFirst{
   
  

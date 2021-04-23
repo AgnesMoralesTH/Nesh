@@ -32,12 +32,24 @@
         </div>
 
 
+
+	<div class="final"></div>
+
     </div>
 </template>
 
 <style scoped>
-#firstword{
-	background-color: rgb(black, 0.5);
+h3{
+	color: rgb(146, 146, 146);
+}
+
+
+.left h1{
+	line-height: 40px;
+}
+.final{
+	height: 70px;
+	width: 50px;
 }
 
 h2 {
@@ -70,7 +82,9 @@ h2 {
 	}
 }
 .contact {
-		background-color: #9B75D7;
+		
+		  /*  background-image: linear-gradient(to bottom , #9B75D7,rgb(167, 126, 179));*/
+
         padding: 20px 20px 20px 20px;
 		
 }
@@ -132,6 +146,7 @@ form {
 
 
 
+
 .infoBox{
     height:100px;
     width: 200px;
@@ -143,29 +158,30 @@ form {
     justify-content: space-between;
 }
 .banners{
- height: 550px;
-        width: 1200px;
+ height: 500px;
+        width: 1000px;
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   margin: 0 auto;
-  
- 
+  background-image: linear-gradient(to bottom left, rgb(255, 234, 237), rgb(245, 235, 236));
+ margin-bottom: 40px;
 
 
 }
 .left{
-  
+  padding-top: 50px;
   width: 500px;
   height: 500px;
   padding-left: 0px;
 }
+
 .left h1{
   font-size: 50px;
-  color: rgb(255, 255, 255);
+  
 }
 #right{
     padding: 20px 20px 20px 20px;
-  background-image: linear-gradient(to bottom left, rgb(255, 234, 237), rgb(245, 235, 236));
+  
   height: 500px;
   width: 500px;
  
@@ -182,4 +198,5 @@ margin-top: -100px;
   
   width: 100%;
 }
+
 </style>

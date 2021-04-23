@@ -1,10 +1,12 @@
 <template>
+<div id="app">
   <div id="nav">
     <TheNavigation />
     
 
   </div>
   <router-view />
+  </div>
 </template>
 
 <style>
@@ -14,6 +16,8 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  height:100%;
+  
 }
 
 #nav {
@@ -34,9 +38,7 @@ ul {
   text-align: center;
 }
 
-#nav li:active {
-  border: 2px solid black;
-}
+
 </style>
 
 <script>
